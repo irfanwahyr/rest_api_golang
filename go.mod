@@ -12,11 +12,6 @@ require (
 require github.com/golang-jwt/jwt/v5 v5.2.0
 
 require (
-	github.com/gofiber/utils v0.0.10 // indirect
-	github.com/gorilla/schema v1.1.0 // indirect
-)
-
-require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
 	github.com/gofiber/fiber v1.14.6

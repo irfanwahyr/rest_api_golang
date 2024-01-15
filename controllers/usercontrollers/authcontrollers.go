@@ -10,15 +10,12 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
 	"github.com/gofiber/fiber/v2"
 )
 
 func validateEmail(email string) bool {
 	re := regexp.MustCompile(`[a-z0-9._%+\-]+@[a-z0-9._%+\-]+\.[a-z0-9._%+\-]`)
 	return re.MatchString(email)
-	// _, err := mail.ParseAddress(email)
-    // return err == nil
 }
 
 func Register(c *fiber.Ctx) error {
