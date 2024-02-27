@@ -2,7 +2,6 @@ package middleware
 
 import (
 	"react_go_catalog_web/helper"
-
 	"github.com/gofiber/fiber/v2"
 )
 
@@ -16,3 +15,7 @@ func IsAuthenticate(c *fiber.Ctx) error {
 	}
 	return c.Next()
 }
+
+// func IsAuthorize(c *fiber.Ctx) error {
+
+// }
